@@ -14,10 +14,7 @@ namespace UnitTests
     {
         private GroupController? _classUnderTest;
         private Dictionary<string, Trainee> _group;
-        //private Trainee? _trainee1;
-        //private Trainee? _trainee2;
-        
-
+       
         [Test]
         public void TestGetAllTraineesMethodSoThatItCallsTheReadGroupMethodOfIDatabaseReader()
         {
@@ -45,7 +42,6 @@ namespace UnitTests
             //arrange
             Mock<IDatabaseWriter> mockDatabaseWriter = new Mock<IDatabaseWriter>();
             _classUnderTest = new GroupController(null, mockDatabaseWriter.Object);
-            //mockDatabaseWriter.Setup(writer => writer.DeleteTraineeByUsername("Username1"));
 
             //act
             _classUnderTest.RemoveTraineeByUsername("Username1");
