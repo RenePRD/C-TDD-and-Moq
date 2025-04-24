@@ -4,7 +4,7 @@ This project is a **Test-Driven Development (TDD)** exercise built in **C#** usi
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - **Language**: C#
 - **Framework**: .NET
@@ -15,7 +15,7 @@ This project is a **Test-Driven Development (TDD)** exercise built in **C#** usi
 
 ---
 
-## ✨ Features
+##  Features
 
 - TDD-compliant structure: tests are written first to drive implementation
 - Interface-based design for loose coupling and testability
@@ -24,7 +24,7 @@ This project is a **Test-Driven Development (TDD)** exercise built in **C#** usi
 
 ---
 
-## 📁 Solution Structure
+##  Solution Structure
 
 ```
 TddAssessmentRenePerida.sln         # Visual Studio solution file
@@ -58,7 +58,7 @@ TddAssessmentRenePerida.sln         # Visual Studio solution file
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open the solution in Visual Studio (`TddAssessmentRenePerida.sln`)
 2. Set the appropriate project as the startup project (`TddAssessmentRenePerida`)
@@ -66,7 +66,7 @@ TddAssessmentRenePerida.sln         # Visual Studio solution file
 
 ---
 
-## 🧪 How to Test
+##  How to Test
 
 You can run tests using:
 - Visual Studio Test Explorer
